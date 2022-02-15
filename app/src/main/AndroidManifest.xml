@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.ivanvega.clientecontentprovider">
 
+    <uses-permission android:name="myper.READ" />
+    <uses-permission android:name="myper.WRITE" />
+
+    <uses-permission android:name="PERMISOLECTURA"></uses-permission>
+    <uses-permission android:name="PERMISOESCRITURA"></uses-permission>
+
     <queries>
         <provider  android:authorities="net.ivanvega.basededatosconroomb.provider" />
     </queries>
